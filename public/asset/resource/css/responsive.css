@@ -1,0 +1,939 @@
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  header {
+    height: 100vh;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  header {
+    height: 85vh;
+  }
+}
+/* //////////////////////////////////////////////////// */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .main-nav{
+    display: none;
+  }
+  .mobile-menu span{
+    display: block;
+  }
+  .mobile-menu span{
+    font-size: 3.5rem;
+  }
+  section {
+    padding: 2rem 0;
+  }
+  header {
+    height: 50vh;
+  }
+  .logo {
+    height: 4rem;
+    padding-left: 3rem;
+  }
+  .main-nav li a:link {
+    font-size: 1rem;
+  }
+  .slider {
+    width: 90%;
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: 1.6rem;
+    padding-top: 2rem;
+  }
+  h2::after {
+    width: 4rem;
+    margin-top: 0.5rem;
+  }
+  .main {
+    flex-direction: column-reverse;
+  }
+  h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    display: block;
+    padding-top: 0rem;
+    padding-bottom: 0.5rem;
+    margin-top: 3rem;
+  }
+  /* right side */
+  .right-side .shop-type {
+    margin: 1rem 0 1.5rem 10rem;
+    color: #333;
+  }
+  .right-side .shop-type {
+    font-size: 1.5rem;
+  }
+  .right-side .shop-type select {
+    font-size: 1.5rem;
+    padding: 0.2rem 0.5rem 0.2rem 1rem;
+    color: #333;
+  }
+  .division-box {
+    width: 78%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+  }
+  .division-name li {
+    display: inline-block;
+  }
+  .division-name i {
+    padding-right: 0.5rem;
+    padding-left: 0.8rem;
+  }
+  .items-box {
+    flex-basis: 45%;
+    max-width: 41rem;
+    padding: 1rem 1rem 2rem 1rem;
+  }
+  .items-box img {
+    width: 100%;
+    height: 22rem;
+    padding: 1rem;
+  }
+  .button {
+    margin: 3rem 6rem 2rem 6rem;
+  }
+
+  .division-name a {
+    font-size: 1.5rem;
+  }
+  /* login start */
+  .login-row {
+    width: 70%;
+  }
+  form {
+    padding: 3rem 5rem;
+  }
+  .login-row h3 {
+    font-size: 2rem;
+  }
+  .login-row .login-area .email input,
+  .login-row .login-area .password input {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .login-row .login button {
+    margin-left: 42%;
+  }
+  /* Division start */
+  .main-division {
+    flex-direction: column-reverse;
+  }
+  .main-division h3 {
+    padding-top: 3rem;
+  }
+  .right-side .division h3 {
+    padding-top: 0.5rem;
+  }
+  .shop-box {
+    flex-basis: 50%;
+    max-width: 38rem;
+  }
+  .shop-box img {
+    height: 20rem;
+  }
+  /* //////////////////////////////// */
+  /* upload page start */
+  .upload-section .form {
+    width: 90%;
+    padding: 2.5rem;
+  }
+  .form-title {
+    margin: 0;
+  }
+  .form-title h4 {
+    font-size: 1.6rem;
+  }
+  .form-main form {
+    padding: 2rem 0 0 0;
+  }
+  .shop-form {
+    font-size: 1.5rem;
+  }
+  .shop {
+    width: 90%;
+  }
+  .shop input {
+    font-size: 1.5rem;
+  }
+  .shop-type {
+    margin-bottom: 1rem;
+  }
+  .shop-type select {
+    padding: 0.2rem 1rem;
+  }
+  .image-upload {
+    margin-bottom: 1.5rem;
+  }
+  .image-upload p {
+    padding-bottom: 0.3rem;
+  }
+  .select-division select {
+    padding: 0.2rem 0 0.2rem 1rem;
+  }
+  .description textarea {
+    width: 90%;
+    height: 15rem;
+    font-size: 1.5rem;
+  }
+  .form-main button {
+    font-size: 1.5rem;
+    padding: 0.5rem 1.5rem;
+  }
+}
+/* ///////////////////////////////////// */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .main-nav{
+    display: none;
+  }
+  .mobile-menu span{
+    display: block;
+  }
+  .mobile-menu span{
+    font-size: 3.5rem;
+  }
+  section {
+    padding: 2rem 0;
+  }
+  header {
+    height: 60vh;
+  }
+  .logo {
+    height: 4rem;
+    padding-left: 3rem;
+  }
+  .main-nav li a:link {
+    font-size: 1rem;
+  }
+  .slider {
+    width: 90%;
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: 1.6rem;
+    padding-top: 2rem;
+  }
+  h2::after {
+    width: 4rem;
+    margin-top: 0.5rem;
+  }
+  .main {
+    flex-direction: column-reverse;
+  }
+  h3 {
+    font-size: 1.4rem;
+    font-weight: 800;
+    display: block;
+    padding-top: 0rem;
+    padding-bottom: 0.5rem;
+  }
+  /* right side */
+  .right-side .shop-type {
+    margin: 1rem 0 1.5rem 3.3rem;
+    color: #333;
+  }
+  .right-side .shop-type {
+    font-size: 1.5rem;
+  }
+  .right-side .shop-type select {
+    font-size: 1.5rem;
+    padding: 0.2rem 0.5rem 0.2rem 1rem;
+    color: #333;
+  }
+  .division-box {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.8rem;
+  }
+  .division-name li {
+    display: inline-block;
+  }
+  .division-name i {
+    padding-right: 0.5rem;
+    padding-left: 0.8rem;
+  }
+  .items-box {
+    flex-basis: 45%;
+    max-width: 41rem;
+    padding: 1rem 1rem 2rem 1rem;
+  }
+  .items-box img {
+    width: 80%;
+    height: 12rem;
+    display: block;
+    margin: 0 auto;
+  }
+  .button {
+    margin: 1rem 6rem 1rem 6rem;
+  }
+
+  .division-name a {
+    font-size: 1rem;
+  }
+  .category-box {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .button a {
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  /* login start */
+  .login-row {
+    width: 80%;
+  }
+  form {
+    padding: 3rem 5rem;
+  }
+  .login-row h3 {
+    font-size: 2rem;
+  }
+  .login-row .login-area .email input,
+  .login-row .login-area .password input {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .login-row .login button {
+    margin-left: 40%;
+  }
+  /* signup start */
+  .signup {
+    width: 80%;
+  }
+  .form-control {
+    margin-bottom: 0.1rem;
+    padding-bottom: 2rem;
+  }
+  .form-control small {
+    top: 5.5rem;
+  }
+  .form-control label {
+    font-size: 1.8rem;
+    margin-bottom: 0.2rem;
+  }
+  .form-control input {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+  /* Division start */
+  .main-division {
+    flex-direction: column-reverse;
+  }
+  .main-division h3 {
+    padding-top: 3rem;
+  }
+  .shop-box {
+    flex-basis: 50%;
+    max-width: 29rem;
+  }
+  .shop-box img {
+    height: 18rem;
+  }
+  .right-side .division h3 {
+    padding-top: 0.5rem;
+  }
+  /* //////////////////////////////// */
+  /* account page */
+
+  .account {
+    width: 90%;
+    margin-top: 8rem;
+  }
+  .acc {
+    font-size: 2rem;
+  }
+  .my-content .name {
+    padding: 0 2rem;
+  }
+  .my-content h4 {
+    font-size: 1.8rem;
+  }
+  .my-content a {
+    padding: 1rem 2rem;
+  }
+  /* //////////////////////////////// */
+  /* upload page start */
+  .upload-section .form {
+    width: 90%;
+    padding: 2.5rem;
+  }
+  .form-title {
+    margin: 0;
+  }
+  .form-title h4 {
+    font-size: 1.6rem;
+  }
+  .form-main form {
+    padding: 2rem 0 0 0;
+  }
+  .shop-form {
+    font-size: 1.5rem;
+  }
+  .shop {
+    width: 90%;
+  }
+  .shop input {
+    font-size: 1.5rem;
+  }
+  .shop-type {
+    margin-bottom: 1rem;
+  }
+  .shop-type select {
+    padding: 0.2rem 1rem;
+  }
+  .image-upload {
+    margin-bottom: 1.5rem;
+  }
+  .image-upload p {
+    padding-bottom: 0.3rem;
+  }
+  .select-division select {
+    padding: 0.2rem 0 0.2rem 1rem;
+  }
+  .description textarea {
+    width: 90%;
+    height: 15rem;
+    font-size: 1.5rem;
+  }
+  .form-main button {
+    font-size: 1.5rem;
+    padding: 0.5rem 1.5rem;
+  }
+}
+/* /////////////////////////////////////////////// */
+@media (min-width: 420px) and (max-width: 575.98px) {
+  .main-nav{
+    display: none;
+  }
+  .mobile-menu span{
+    display: block;
+  }
+  section {
+    padding: 2rem 0;
+  }
+  header {
+    height: 60vh;
+  }
+  .logo {
+    height: 3rem;
+    padding-left: 3rem;
+  }
+  .main-nav {
+    margin-top: 0.9rem;
+  }
+  .main-nav li a:link {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  .slider {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .manual-btn:not(:last-child) {
+    margin-right: 2rem;
+  }
+  .manual-btn {
+    border: 0.2rem solid #872301;
+    padding: 0.3rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+    padding-top: 2rem;
+  }
+  h2::after {
+    width: 4rem;
+    margin-top: 0.5rem;
+  }
+  .main {
+    flex-direction: column-reverse;
+  }
+  h3 {
+    font-size: 1.4rem;
+    font-weight: 800;
+    display: block;
+    padding-top: 0rem;
+    padding-bottom: 0.5rem;
+  }
+  /* right side */
+  .right-side .shop-type {
+    margin: 1rem 0 1.5rem 2.4rem;
+    color: #333;
+  }
+  .right-side .shop-type {
+    font-size: 1.5rem;
+  }
+  .right-side .shop-type select {
+    font-size: 1.5rem;
+    padding: 0.2rem 0.5rem 0.2rem 1rem;
+    color: #333;
+  }
+  .division-box {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.8rem;
+  }
+  .division-name li {
+    display: inline-block;
+  }
+  .division-name i {
+    padding-right: 0.5rem;
+    padding-left: 0.8rem;
+  }
+  .items-box {
+    flex-basis: 50%;
+    max-width: 18rem;
+    padding: 1rem 2rem 1rem 2rem;
+    margin-bottom: 3rem;
+  }
+  .items-box img {
+    width: 70%;
+    height: 9rem;
+    display: block;
+    margin: 0 auto;
+  }
+  .shop-box {
+    flex-basis: 90%;
+    max-width: 50rem;
+    margin-left: 2rem;
+  }
+  .shop-box img {
+    height: 100%;
+  }
+  .button {
+    margin: 1rem 2rem 1rem 2rem;
+  }
+
+  .division-name a {
+    font-size: 1.5rem;
+  }
+  .category-box {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .button a {
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .footer-section .footer-font {
+    font-size: 1rem;
+  }
+  .footer-section .footer-font {
+    font-size: 1.2rem;
+  }
+  .hh h4{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.hh span{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.first i{
+    padding-right: .5rem;
+}
+.first ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+
+}
+  /* login start */
+  .login-row {
+    width: 90%;
+  }
+  form {
+    padding: 3rem 2rem;
+  }
+  .login-row h3 {
+    font-size: 2rem;
+  }
+  .login-row .login-area .email input,
+  .login-row .login-area .password input {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  /* signup start */
+  .signup {
+    width: 90%;
+  }
+  .form-control {
+    margin-bottom: 0.1rem;
+    padding-bottom: 2rem;
+  }
+  .form-control small {
+    top: 5rem;
+  }
+  .form-control label {
+    font-size: 1.5rem;
+    margin-bottom: 0.2rem;
+  }
+  .form-control input {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+  /* Division start */
+  .main-division {
+    flex-direction: column-reverse;
+  }
+  .main-division h3 {
+    padding-top: 3rem;
+  }
+  .right-side .division h3 {
+    padding-top: 0.5rem;
+  }
+  /* //////////////////////////////// */
+  /* account page */
+
+  .account {
+    width: 90%;
+    margin-top: 8rem;
+  }
+  .acc {
+    font-size: 2rem;
+  }
+  .my-content .name {
+    padding: 0 2rem;
+  }
+  .my-content h4 {
+    font-size: 1.8rem;
+  }
+  .my-content a {
+    padding: 1rem 2rem;
+  }
+  /* //////////////////////////////// */
+  /* upload page start */
+  .upload-section .form {
+    width: 90%;
+    padding: 2.5rem;
+  }
+  .form-title {
+    margin: 0;
+  }
+  .form-title h4 {
+    font-size: 1.6rem;
+  }
+  .form-main form {
+    padding: 2rem 0 0 0;
+  }
+  .shop-form {
+    font-size: 1.5rem;
+  }
+  .shop {
+    width: 90%;
+  }
+  .shop input {
+    font-size: 1.5rem;
+  }
+  .shop-type {
+    margin-bottom: 1rem;
+  }
+  .shop-type select {
+    padding: 0.2rem 1rem;
+  }
+  .image-upload {
+    margin-bottom: 1.5rem;
+  }
+  .image-upload p {
+    padding-bottom: 0.3rem;
+  }
+  .select-division select {
+    padding: 0.2rem 0 0.2rem 1rem;
+  }
+  .description textarea {
+    width: 90%;
+    height: 15rem;
+    font-size: 1.5rem;
+  }
+  .form-main button {
+    font-size: 1.5rem;
+    padding: 0.5rem 1.5rem;
+  }
+}
+/* /////////////////////////////////////////// */
+@media (max-width: 420px) {
+  .main-nav{
+    display: none;
+  }
+  .mobile-menu span{
+    display: block;
+  }
+  section {
+    padding: 2rem 0;
+  }
+  header {
+    height: 35vh;
+  }
+  .logo {
+    height: 3rem;
+    padding-left: 3rem;
+  }
+  .main-nav {
+    margin-top: 0.9rem;
+  }
+  .main-nav li a:link {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  .slider {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .manual-btn:not(:last-child) {
+    margin-right: 2rem;
+  }
+  .manual-btn {
+    border: 0.2rem solid #872301;
+    padding: 0.3rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+    padding-top: 2rem;
+  }
+  h2::after {
+    width: 4rem;
+    margin-top: 0.5rem;
+  }
+  .main {
+    flex-direction: column-reverse;
+  }
+  h3 {
+    font-size: 1.4rem;
+    font-weight: 800;
+    display: block;
+    padding-top: 0rem;
+    padding-bottom: 0.5rem;
+  }
+  /* right side */
+  .right-side .shop-type {
+    margin: 1rem 0 1.5rem 2rem;
+    color: #333;
+  }
+  .right-side .shop-type {
+    font-size: 1.5rem;
+  }
+  .right-side .shop-type select {
+    font-size: 1.5rem;
+    padding: 0.2rem 0.5rem 0.2rem 1rem;
+    color: #333;
+  }
+  .division-box {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.8rem;
+  }
+  .division-name li {
+    display: inline-block;
+  }
+  .division-name i {
+    padding-right: 0.5rem;
+    padding-left: 0.8rem;
+  }
+  .items-box {
+    flex-basis: 50%;
+    max-width: 18rem;
+    padding: 1rem 2rem 1rem 2rem;
+    margin-bottom: 3rem;
+  }
+  .items-box img {
+    width: 70%;
+    height: 9rem;
+    display: block;
+    margin: 0 auto;
+  }
+  .shop-box img {
+    height: 100%;
+  }
+  .button {
+    margin: 1rem 2rem 1rem 2rem;
+  }
+
+  .division-name a {
+    font-size: 1.5rem;
+  }
+  .category-box {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .button a {
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  /* ////////////////// */
+  .footer-section .footer-font {
+    font-size: 1.2rem;
+  }
+  .hh h4{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.hh span{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.first i{
+    padding-right: .5rem;
+}
+.first ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+   
+
+}
+  /* login start */
+  .login-row {
+    width: 90%;
+  }
+  form {
+    padding: 3rem 2rem;
+  }
+  .login-row h3 {
+    font-size: 1.5rem;
+  }
+  .login-row .login-area .email input,
+  .login-row .login-area .password input {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .login-area .email label,
+  .login-area .password label {
+    font-size: 1.5rem;
+  }
+  .login-row .login input {
+    font-size: 1.4rem;
+    padding: 0.5rem 2rem;
+  }
+  .login-row .login button {
+    margin-left: 34%;
+  }
+  /* signup start */
+  .signup {
+    width: 90%;
+  }
+  .form-control {
+    margin-bottom: 0.1rem;
+    padding-bottom: 1.5rem;
+  }
+  .form-control label {
+    font-size: 1.5rem;
+    margin-bottom: 0.2rem;
+  }
+  .form-control input {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+  .form-control small {
+    top: 4.7rem;
+  }
+  /* Division start */
+  .main-division {
+    flex-direction: column-reverse;
+  }
+  .main-division h3 {
+    padding-top: 3rem;
+  }
+  .right-side .division h3 {
+    padding-top: 0.5rem;
+  }
+
+  .main-division .left-sides {
+    margin: 0 auto;
+  }
+  .main-division .shop-box {
+    flex-basis: 90%;
+    max-width: 45rem;
+  }
+  /* pagination */
+  .pagination ul li .pageNumber {
+    width: 1.5rem;
+  }
+  .pagination ul {
+    padding: 0 2rem;
+  }
+  .pagination ul li {
+    padding-top: 1.5rem;
+  }
+  .pagination ul li a {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+  .pagination ul li:first-child {
+    margin-right: 1rem;
+    padding-top: 1.5rem;
+  }
+  .pagination ul li:last-child {
+    margin-left: 1rem;
+    padding-top: 1.5rem;
+  }
+  /* //////////////////////////////// */
+  /* account page start */
+  .account {
+    width: 90%;
+    margin-top: 8rem;
+  }
+  .acc {
+    font-size: 1.6rem;
+  }
+  .my-content .name {
+    padding: 0 1.5rem;
+  }
+  .my-content h4 {
+    font-size: 1.5rem;
+  }
+  .my-content a {
+    padding: 0.5rem 1rem;
+  }
+  /* account page end*/
+  /* //////////////////////////////// */
+  /* upload page start */
+  .upload-section .form {
+    width: 90%;
+    padding: 2.5rem;
+  }
+  .form-title {
+    margin: 0;
+  }
+  .form-title h4 {
+    font-size: 1.6rem;
+  }
+  .form-main form {
+    padding: 2rem 0 0 0;
+  }
+  .shop-form {
+    font-size: 1.5rem;
+  }
+  .shop {
+    width: 90%;
+  }
+  .shop input {
+    font-size: 1.5rem;
+  }
+  .shop-type {
+    margin-bottom: 1rem;
+  }
+  .shop-type select {
+    padding: 0.2rem 1rem;
+  }
+  .image-upload {
+    margin-bottom: 1.5rem;
+  }
+  .image-upload p {
+    padding-bottom: 0.3rem;
+  }
+  .select-division select {
+    padding: 0.2rem 0 0.2rem 1rem;
+  }
+  .description textarea {
+    width: 90%;
+    height: 15rem;
+    font-size: 1.5rem;
+  }
+  .form-main button {
+    font-size: 1.5rem;
+    padding: 0.5rem 1.5rem;
+  }
+}
